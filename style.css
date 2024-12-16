@@ -130,7 +130,7 @@ body {
     font-size: 18px;
     width: 226px;
 }
-.task-item > task-input {
+.task-item > .task-input {
     width: 226px;
 }
 .button--delete, .delete-img {
