@@ -32,6 +32,9 @@ body {
     margin: 0 auto 0;
 }
 
+.task-wrapper {
+    margin: 30px 0 0;
+}
 .task-input {
     width: 56%;
     display: inline-block;
