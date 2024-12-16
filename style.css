@@ -1,49 +1,60 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
+
 .header {
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-    text-align: right;
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
 }
+
 .header img {
-    width: 100%;
+  width: 100%;
 }
+
 .header .info-link {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+  .header { 
+    text-align: center;
+  }
 }
-}
+
 .main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
+
 .add-item {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
+
 .task-wrapper {
     display: flex;
 }
+
 ul {
     margin:0;
     padding: 0px;
 }
+
 li, h2 {
     list-style:none;
 }
+
 input,button{
     outline:none;
 }
+
 button {
     background: none;
     border: 0px;
@@ -56,6 +67,7 @@ button {
 button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 h2,
 label[for='new-task'] {
@@ -67,6 +79,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
+
 input[type="text"] {
     margin: 0;
     font-size: 18px;
@@ -79,6 +92,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
+
 input[type="text"]:focus {
     color: #333;
 }
@@ -88,6 +102,7 @@ label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
 }
+
 input#new-task {
     width: 318px;
 }
@@ -97,11 +112,11 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 li > * {
     vertical-align: middle;
 }
